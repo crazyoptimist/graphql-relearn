@@ -13,4 +13,10 @@ module.exports = {
       return productsModel.getProductById(args.id);
     },
   },
+  Mutation: {
+    addNewProduct: (_, args) => {
+      const { id, description, price } = args;
+      return productsModel.addNewProduct(id, description, price);
+    },
+  },
 };
