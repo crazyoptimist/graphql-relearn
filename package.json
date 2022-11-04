@@ -1,6 +1,6 @@
 {
   "name": "graphql-relearn",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "crazyoptimist learns graphql",
   "main": "index.js",
   "scripts": {
